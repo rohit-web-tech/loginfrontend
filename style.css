@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100,200,300,400,500,600,700&display=swap');
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+    font-family: 'poppins';
+    transition : all ease .3s ;
+}
+body{
+    height : 100vh ;
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    background-color: #6cd4d8 ;
+}
+.login-form{
+    padding : 30px ;
+    border : 12px solid #6cd4d8 ;
+    display : flex ;
+    align-items: center ;
+    justify-content : center ;
+    flex-direction: column ;
+    box-shadow: 2px 2px 8px #2a7576 ;
+    background-color: #1e5261eb;
+    color : #769ea5 ;
+}
+.logo{
+    width : 70px ;
+    height : 70px ;
+    border-radius: 50% ;
+    display : flex ;
+    justify-content: center ;
+    align-items: center ;
+    border : 3px solid #769ea5 ;
+    font-size: 30px;
+}
+.heading{
+    margin-bottom : 30px ;
+}
+.heading h1{
+    font-weight: 200;
+}
+.main-form{
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    flex-direction: column;
+    gap : 20px ;
+}
+.input-feild{
+    width : 300px ;
+    position :relative ;
+}
+.input-box{
+    width : 100% ;
+    height : 30px ;
+    background: transparent;
+    border: none ;
+    outline: none ;
+    border-bottom: 2px solid #769ea5;
+    padding-left : 30px ;
+    font-size: 17px;
+    color : #769ea5;
+}
+.icons{
+    position: absolute;
+    left : 2px ;
+    top : 5px ;
+}
+.help-feild{
+    width : 100% ;
+    display : flex ;
+    justify-content: space-between;
+    align-items: center ;
+    color : #acd2d9 ;
+}
+#submit-btn{
+    margin-top : 15px ;
+    width : 100% ;
+    height : 40px ;
+    font-weight: bold;
+    background-color: #021c23;
+    color : white ;
+    font-size: 16px ;
+    border: none;
+}
+#submit-btn:hover{
+    background-color: #05323b;
+    cursor : pointer ;
+}

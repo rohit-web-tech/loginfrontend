@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+
+<body>
+    <div class="login-form">
+        <div class="logo">
+            <i class="fa-solid fa-camera"></i>
+        </div>
+        <div class="heading">
+            <h1>USER LOGIN</h1>
+        </div>
+        <form class="main-form">
+            <div class="input-feild">
+                <i class="fa-solid fa-user icons"></i>
+                <input type="text" name="username" id="username" class="input-box" placeholder="Username">
+            </div>
+            <div class="input-feild">
+                <i class="fa-solid fa-lock icons"></i>
+                <input type="password" name="password" id="password" class="input-box" placeholder="Password">
+            </div>
+            <div class="help-feild">
+                <div class="remember-me-feild">
+                    <input type="checkbox" name="remember-me" id="remember-me" class="remember-me">
+                    <label for="checkbox">Remember Me</label>
+                </div>
+                <div class="forgot-pass">
+                    <p>Forgot Password?</p>
+                </div>
+            </div>
+            <input type="submit" value="LOGIN" id="submit-btn">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
